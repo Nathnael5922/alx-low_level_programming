@@ -1,5 +1,5 @@
 #include <studio.h>
-/*
+/**
  * main - Entry
  * Return: always 0
  */
