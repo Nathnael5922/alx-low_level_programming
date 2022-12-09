@@ -1,23 +1,22 @@
-/**
-* is a program that prints latters
-* in lowercase
-* */
+/*
+* File: 2-print_alphabet.c
+* Auth: Brennan D Baraban
+*/
 
 #include <stdio.h>
+
 /**
- *  * main - Prints the alphabet in lowercase.
- *   *
- *    * Return: Always 0.
- *     */
-
+* main - Prints the alphabet in lowercase.
+* Return: Always 0.
+*/
 int main(void)
+{
+	char letter;
 
-	char latter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
-	for (latter = 'a'; latter <= 'z' latter ++);
-		putchar(latter);
+	putchar('\n');
 
-	putchar("\n");
-	
 	return (0);
-}	
+}
