@@ -5,13 +5,13 @@
   *@str: string to capitalize
   *Return:returns the capitalized string
   */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	int i = 0;
 
-	while (str[i])
+	while (s[i])
 	{
-		while (!(str[i] >= 'a' && str[i] <= 'z'))
+		while (!(s[i] >= 'a' && s[i] <= 'z'))
 			i++;
 
 		if (str[i - 1] == ' ' || s[i - 1] == '\t' ||
@@ -26,5 +26,5 @@ char *cap_string(char *str)
 		}
 		i++;
 	}
-	return (str);
+	return (s);
 }
