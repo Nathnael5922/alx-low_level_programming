@@ -1,13 +1,13 @@
-#include"dog.h"
+#include "dog.h"
 
- /**
-   * print_dog - prints a struct dog
-   *@d: dog identification
-*/
+/**
+  * print_dog - prints a struct dog
+  *@d: dog identification
+  */
 
 void print_dog(struct dog *d)
 {
-	if (d == NULL)
+	if (d == NULL )
 		return;
 
 	if ((*d).name == NULL)
